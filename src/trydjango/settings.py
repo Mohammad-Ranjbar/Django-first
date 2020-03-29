@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    #own
+    # own
     'pages',
     'products'
 ]
@@ -58,7 +58,7 @@ ROOT_URLCONF = 'trydjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/home/mohammad/Desktop/Django/Django-first/src/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
